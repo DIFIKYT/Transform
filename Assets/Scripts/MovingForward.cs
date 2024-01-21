@@ -4,7 +4,7 @@ public class MovingForward : MonoBehaviour
 {
     [SerializeField] private Vector3 _movementDirection;
 
-    void Update()
+    private void Update()
     {
         MoveForward();
     }
